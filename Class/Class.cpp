@@ -13,16 +13,19 @@ struct A
 	//unsigned char h;
 	//unsigned short i;
 	//unsigned long long j;
-
-	int8_t a;
-	int32_t b;
+	uint8_t j;
 	int8_t c;
-	float d;
-	double e;
-	uint32_t f;
-	uint64_t g;
-	uint16_t h;
 	uint8_t i;
+	int8_t a;
+	double e;
+	float d;
+
+	uint16_t h;
+	uint32_t f;
+	int32_t b;
+	uint64_t g;
+
+
 };
 int main()
 {
