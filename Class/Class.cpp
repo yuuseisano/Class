@@ -29,7 +29,23 @@ struct A
 };
 int main()
 {
-	std::cout << sizeof(A) << std::endl;
+	A a;
+
+	memset(&a, 0, sizeof(a));
+	//std::cout << sizeof(A) << std::endl;
+	std::cout << a.a << std::endl;
+	std::cout << a.b << std::endl;
+	std::cout << a.c << std::endl;
+	std::cout << a.d << std::endl;
+	std::cout << a.e << std::endl;
+	std::cout << a.f << std::endl;
+	std::cout << a.g << std::endl;
+	std::cout << a.h<< std::endl;
+	std::cout << a.i << std::endl;
+	std::cout << a.j << std::endl;
+
+
+
 
 	//std::cout << alignof(A) << std::endl;
 
