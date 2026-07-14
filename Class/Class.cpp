@@ -12,12 +12,14 @@ struct B
 {
 	char a;
 	char b;
+	short d;
 	int c;
 };
 
 struct C
 {
 	int a;
+	short d;
 	char b;
 	char c;
 };
